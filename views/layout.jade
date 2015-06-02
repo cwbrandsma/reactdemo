@@ -2,6 +2,12 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+	
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/bootstrap-theme.min.css')
+    script(src="/js/react.js") 
+    script(src="/js/JSXTransformer.js") 
+  
   body
-    block content
+    div#container.container-fluid
+       block content
